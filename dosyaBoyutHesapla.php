@@ -1,3 +1,4 @@
+<?php
 $arr = ["byte","kb","mb","gb","tb"]; // İsteğinize göre içeriği artırıp azaltabilirsiniz.
 $carpan = 1024; // IEEE 1541'e göre 2^10 katları olarak alınmıştır.
 $boyut = 1024; // Bayt cinsinden değer giriniz.
@@ -11,3 +12,4 @@ for($i = 0; $i < count($arr); $i++){
   print round( ($boyut / $islem), 2)." ".$arr[$i];
   break;}
 }
+?>
